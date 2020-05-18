@@ -11,7 +11,7 @@ radius1 = []
 velocity1 = []
 mass = []
 predictedVelocity = []
-G = 6.67*(10**-11)
+G = 4.30*(10**-6)
 
 for line in f:
   radius.append(float(line.split('\t')[0]))
