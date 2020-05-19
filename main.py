@@ -17,7 +17,7 @@ for line in f:
   radius.append(float(line.split('\t')[0]))
   velocity.append(float(line.split('\t')[1]))
   radius1.append((line.split('\t')[2]))
-  velocity1.append(float(line.split('\t')[4]))
+  velocity1.append(float(line.split('\t')[3]))
   mass.append(float(line.split('\t')[4]))
   predictedVelocity.append((float(G))*(float(line.split('\t')[4]))/(float(line.split('\t')[0]))**(0.5))
 
