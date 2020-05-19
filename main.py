@@ -7,8 +7,6 @@ f.readline()
 #creating empty lists
 radius = []
 velocity = []
-radius1 = []
-velocity1 = []
 mass = []
 predictedVelocity = []
 G = 4.30*(10**-6)
@@ -16,8 +14,6 @@ G = 4.30*(10**-6)
 for line in f:
   radius.append(float(line.split('\t')[0]))
   velocity.append(float(line.split('\t')[1]))
-  radius1.append((line.split('\t')[2]))
-  velocity1.append(float(line.split('\t')[3]))
   mass.append(float(line.split('\t')[4]))
   predictedVelocity.append((float(G))*(float(line.split('\t')[4]))/(float(line.split('\t')[0]))**(0.5))
 
